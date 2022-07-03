@@ -1,0 +1,82 @@
+@media only screen and (min-width : 325px) and (max-width: 416px) {
+    /*Smartphones [325px -> 416px]*/
+
+    /* ---------------Body Styling--------------- */
+    body {
+        background: none;
+    }
+
+    /* ----------Newsletter Box Styling---------- */
+    #box-container {
+        width: 27rem;
+        height: 520px;
+        grid-template-rows: 1.2fr 1fr 1.1fr;
+
+    }
+
+    /* -------------Landing Styling-------------- */
+    .landing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 515px;
+    }
+
+    /* -------------Header Box Styling------------ */
+    header {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        height: 200px;
+    }
+
+    header h2 {
+        padding: 20px 51.5px;
+        font-size: 1.6rem;
+    }
+
+    /* ------------Section Box Styling------------ */
+    #pg1 {
+        font-size: 0.85rem;
+        padding: 16px;
+        margin: 8px 2px;
+    }
+
+    #pg2 {
+        margin: 14px 18px;
+        font-size: 0.85rem;
+    }
+
+    /* Email & Subscribe-Button Styling */
+    #form-group input[type=email] {
+        padding: 10px;
+        padding-left: 14px;
+        padding-right: 66px;
+    }
+
+    #form-group input[type=button] {
+        padding: 14px 20px;
+    }
+
+    /* ------------Footer Box Styling------------- */
+    footer {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    /* Profile Styling */
+    #profile {
+        margin-top: 18px;
+    }
+
+    #profile img {
+        margin: 0px 8px;
+    }
+
+    /* Bottom Paragraph Styling */
+    #btm-para {
+        font-size: 0.85rem;
+        padding: 0px 15px;
+        margin-top: 14px;
+        line-height: 18px;
+    }
+}
